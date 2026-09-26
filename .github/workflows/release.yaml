@@ -1,0 +1,87 @@
+---
+name: "Release"
+
+on:
+  push:
+    tags:
+      - "v[0-9]*"
+
+permissions:
+  contents: "write"
+
+jobs:
+  package:
+    name: "Build and package all wallpapers"
+    runs-on: "macos-26"
+
+    steps:
+      - name: "Check out source code"
+        uses: "actions/checkout@v7.0.1"
+        with:
+          fetch-depth: 0
+      
+      - name: "Install dependencies"
+        run: "brew install exiftool libheif resvg"
+      
+      - name: "Run `make`"
+        run: "make"
+      
+      - name: "Generate release notes"
+        shell: "bash"
+        env:
+          REPOSITORY_URL: "https://github.com/${{ github.repository }}"
+          TAG: "${{ github.ref_name }}"
+        run: |
+          set -euo pipefail
+
+          previous_tag="$(git describe --tags --match "v[0-9]*" --abbrev=0 HEAD^ 2>/dev/null || true)"
+          log_format="- [\`%h\`](${REPOSITORY_URL}/commit/%H) %s"
+
+          {
+            printf '%s\n' "## Changelog"
+            printf '\n'
+
+            if [ -n "${previous_tag}" ]; then
+              git log --pretty=format:"${log_format}" "${previous_tag}..HEAD"
+              printf '\n'
+              printf '\n'
+              printf '%s\n' "**Full Changelog**: [\`${previous_tag}...${TAG}\`](${REPOSITORY_URL}/compare/${previous_tag}...${TAG})"
+            else
+              git log --pretty=format:"${log_format}"
+              printf '\n'
+              printf '\n'
+              printf '%s\n' "**Full Changelog**: [\`${TAG}\`](${REPOSITORY_URL}/commits/${TAG})"
+            fi
+
+            printf '\n'
+            printf '%s\n' "## Verify the artifacts"
+            printf '\n'
+            printf '%s\n' "First, download the [\`SHA256SUMS\`](${REPOSITORY_URL}/releases/download/${TAG}/SHA256SUMS) file, for example, with \`curl\`:"
+            printf '%s\n' "\`\`\`bash"
+            printf '%s\n' "curl -LO ${REPOSITORY_URL}/releases/download/${TAG}/SHA256SUMS"
+            printf '%s\n' "\`\`\`"
+            printf '%s\n' "Then verify the checksums of any artifact you downloaded from the release using \`shasum\`:"
+            printf '%s\n' "\`\`\`bash"
+            printf '%s\n' "shasum -a 256 --ignore-missing -c SHA256SUMS"
+            printf '%s\n' "\`\`\`"
+
+            printf '\n'
+          } > "build/release-notes.md"
+      
+      - name: "Create GitHub Release"
+        shell: "bash"
+        env:
+          GH_TOKEN: "${{ github.token }}"
+          TAG: "${{ github.ref_name }}"
+        run: |
+          set -euo pipefail
+
+          gh release create \
+            "${TAG}" \
+            --title "${TAG}" \
+            --notes-file "build/release-notes.md" \
+            --verify-tag \
+            --fail-on-no-commits \
+            --draft \
+            "build/dist/Nord.zip" \
+            "build/dist/SHA256SUMS"
