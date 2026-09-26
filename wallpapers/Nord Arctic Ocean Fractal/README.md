@@ -1,9 +1,15 @@
 # Nord Arctic Ocean Fractal
 
-<p>
-    <img src="Nord%20Arctic%20Ocean%20Fractal%20Light.svg" width="49.7%" />
-    <img src="Nord%20Arctic%20Ocean%20Fractal%20Dark.svg" width="49.7%" />
-</p>
+<table>
+    <tr>
+        <td width="50%">
+            <img src="Nord%20Arctic%20Ocean%20Fractal%20Light.svg" />
+        </td>
+        <td>
+            <img src="Nord%20Arctic%20Ocean%20Fractal%20Dark.svg" />
+        </td>
+    </tr>
+</table>
 
 ## Image Credits
 

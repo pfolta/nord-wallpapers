@@ -1,9 +1,15 @@
 # Nord Apple Logo Aurora
 
-<p>
-    <img src="Nord%20Apple%20Logo%20Aurora%20Light.svg" width="49.7%" />
-    <img src="Nord%20Apple%20Logo%20Aurora%20Dark.svg" width="49.7%" />
-</p>
+<table>
+    <tr>
+        <td width="50%">
+            <img src="Nord%20Apple%20Logo%20Aurora%20Light.svg" />
+        </td>
+        <td width="50%">
+            <img src="Nord%20Apple%20Logo%20Aurora%20Dark.svg" />
+        </td>
+    </tr>
+</table>
 
 ## Image Credits
 
