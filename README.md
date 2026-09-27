@@ -53,3 +53,16 @@
         </td>
     </tr>
 </table>
+
+### [Nord Subway](wallpapers/Nord%20Subway/)
+
+<table>
+    <tr>
+        <td width="50%">
+            <img src="wallpapers/Nord%20Subway/Nord%20Subway%20Light.svg" />
+        </td>
+        <td>
+            <img src="wallpapers/Nord%20Subway/Nord%20Subway%20Dark.svg" />
+        </td>
+    </tr>
+</table>
