@@ -3,10 +3,10 @@
 <table>
     <tr>
         <td width="50%">
-            <img src="Nord%20Apple%20Logo%20Aurora%20Light.svg" />
+            <img src="light.svg" />
         </td>
         <td width="50%">
-            <img src="Nord%20Apple%20Logo%20Aurora%20Dark.svg" />
+            <img src="dark.svg" />
         </td>
     </tr>
 </table>

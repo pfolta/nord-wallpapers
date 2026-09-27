@@ -20,7 +20,7 @@ out_dir="$build_dir/out/$wallpaper"
 
 printf "\033[34m•\033[0m \033[1m%s\033[0m\n" "Creating wallpaper '$wallpaper'..."
 
-wallpaper_svg_light="$wallpapers_dir/$wallpaper/$wallpaper Light.svg"
+wallpaper_svg_light="$wallpapers_dir/$wallpaper/light.svg"
 if [[ -f "$wallpaper_svg_light" ]]; then
     printf "  \033[32m✓\033[0m %s: '%s'\n" "Found light SVG" "$wallpaper_svg_light"
 else
@@ -28,7 +28,7 @@ else
     exit 1
 fi
 
-wallpaper_svg_dark="$wallpapers_dir/$wallpaper/$wallpaper Dark.svg"
+wallpaper_svg_dark="$wallpapers_dir/$wallpaper/dark.svg"
 if [[ -f "$wallpaper_svg_dark" ]]; then
     printf "  \033[32m✓\033[0m %s: '%s'\n" "Found dark SVG" "$wallpaper_svg_dark"
 else

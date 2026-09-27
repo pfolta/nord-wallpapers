@@ -3,10 +3,10 @@
 <table>
     <tr>
         <td width="50%">
-            <img src="Nord%20Arctic%20Ocean%20Fractal%20Light.svg" />
+            <img src="light.svg" />
         </td>
         <td>
-            <img src="Nord%20Arctic%20Ocean%20Fractal%20Dark.svg" />
+            <img src="dark.svg" />
         </td>
     </tr>
 </table>

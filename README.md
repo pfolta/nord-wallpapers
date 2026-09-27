@@ -7,10 +7,10 @@
 <table>
     <tr>
         <td width="50%">
-            <img src="wallpapers/Nord%20Apple%20Logo%20Aurora/Nord%20Apple%20Logo%20Aurora%20Light.svg" />
+            <img src="wallpapers/Nord%20Apple%20Logo%20Aurora/light.svg" />
         </td>
         <td width="50%">
-            <img src="wallpapers/Nord%20Apple%20Logo%20Aurora/Nord%20Apple%20Logo%20Aurora%20Dark.svg" />
+            <img src="wallpapers/Nord%20Apple%20Logo%20Aurora/dark.svg" />
         </td>
     </tr>
 </table>
@@ -20,10 +20,10 @@
 <table>
     <tr>
         <td width="50%">
-            <img src="wallpapers/Nord%20Arctic%20Ocean%20Fractal/Nord%20Arctic%20Ocean%20Fractal%20Light.svg" />
+            <img src="wallpapers/Nord%20Arctic%20Ocean%20Fractal/light.svg" />
         </td>
         <td>
-            <img src="wallpapers/Nord%20Arctic%20Ocean%20Fractal/Nord%20Arctic%20Ocean%20Fractal%20Dark.svg" />
+            <img src="wallpapers/Nord%20Arctic%20Ocean%20Fractal/dark.svg" />
         </td>
     </tr>
 </table>
@@ -33,10 +33,10 @@
 <table>
     <tr>
         <td width="50%">
-            <img src="wallpapers/Nord%20Blobs%20Frost/Nord%20Blobs%20Frost%20Light.svg" />
+            <img src="wallpapers/Nord%20Blobs%20Frost/light.svg" />
         </td>
         <td>
-            <img src="wallpapers/Nord%20Blobs%20Frost/Nord%20Blobs%20Frost%20Dark.svg" />
+            <img src="wallpapers/Nord%20Blobs%20Frost/dark.svg" />
         </td>
     </tr>
 </table>
@@ -46,10 +46,10 @@
 <table>
     <tr>
         <td width="50%">
-            <img src="wallpapers/Nord%20Mojave/Nord%20Mojave%20Light.svg" />
+            <img src="wallpapers/Nord%20Mojave/light.svg" />
         </td>
         <td>
-            <img src="wallpapers/Nord%20Mojave/Nord%20Mojave%20Dark.svg" />
+            <img src="wallpapers/Nord%20Mojave/dark.svg" />
         </td>
     </tr>
 </table>
@@ -59,10 +59,10 @@
 <table>
     <tr>
         <td width="50%">
-            <img src="wallpapers/Nord%20Subway/Nord%20Subway%20Light.svg" />
+            <img src="wallpapers/Nord%20Subway/light.svg" />
         </td>
         <td>
-            <img src="wallpapers/Nord%20Subway/Nord%20Subway%20Dark.svg" />
+            <img src="wallpapers/Nord%20Subway/dark.svg" />
         </td>
     </tr>
 </table>
