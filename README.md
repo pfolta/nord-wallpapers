@@ -80,6 +80,19 @@
     </tr>
 </table>
 
+### [Nord Obsession](wallpapers/Nord%20Obsession/)
+
+<table>
+    <tr>
+        <td width="50%">
+            <img src="wallpapers/Nord%20Obsession/light.svg" />
+        </td>
+        <td>
+            <img src="wallpapers/Nord%20Obsession/dark.svg" />
+        </td>
+    </tr>
+</table>
+
 ### [Nord Subway](wallpapers/Nord%20Subway/)
 
 <table>
