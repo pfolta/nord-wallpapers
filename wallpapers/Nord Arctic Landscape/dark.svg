@@ -113,12 +113,12 @@
     </linearGradient>
   </defs>
   <rect
-     fill="#2e3440"
      width="5120"
      height="2880"
      x="0"
      y="0"
-     id="rect1" />
+     id="rect1"
+     style="fill:#2e3440;fill-opacity:1" />
   <g
      id="g30"
      transform="matrix(8.1746305,0,0,8.1746305,-1069.5359,-617.65668)">
