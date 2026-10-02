@@ -15,6 +15,19 @@
     </tr>
 </table>
 
+### [Nord Apple Logo Frost](wallpapers/Nord%20Apple%20Logo%20Frost/)
+
+<table>
+    <tr>
+        <td width="50%">
+            <img src="wallpapers/Nord%20Apple%20Logo%20Frost/light.svg" />
+        </td>
+        <td width="50%">
+            <img src="wallpapers/Nord%20Apple%20Logo%20Frost/dark.svg" />
+        </td>
+    </tr>
+</table>
+
 ### [Nord Arctic Landscape](wallpapers/Nord%20Arctic%20Landscape/)
 
 <table>
