@@ -13,10 +13,8 @@ if [[ $# != 0 ]]; then
 fi
 
 deps=(
-    "base64"
     "exiftool"
     "heif-enc"
-    "plutil"
     "resvg"
 )
 
