@@ -10,3 +10,7 @@
         </td>
     </tr>
 </table>
+
+## Image Credits
+
+This wallpaper is based on an abstract version of the [London Underground map](https://tubenotifications.co.uk/images/articles/tube-map-abstract.svg).
