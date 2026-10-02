@@ -1,5 +1,7 @@
 BUILD_DIR ?= ./build
 
+.NOTPARALLEL:
+
 .PHONY: default
 default: deps clean build_all package
 
