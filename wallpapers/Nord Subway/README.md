@@ -5,7 +5,7 @@
         <td width="50%">
             <img src="light.svg" />
         </td>
-        <td>
+        <td width="50%">
             <img src="dark.svg" />
         </td>
     </tr>

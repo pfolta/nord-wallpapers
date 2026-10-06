@@ -35,7 +35,7 @@
         <td width="50%">
             <img src="wallpapers/Nord%20Arctic%20Landscape/light.svg" />
         </td>
-        <td>
+        <td width="50%">
             <img src="wallpapers/Nord%20Arctic%20Landscape/dark.svg" />
         </td>
     </tr>
@@ -48,7 +48,7 @@
         <td width="50%">
             <img src="wallpapers/Nord%20Arctic%20Ocean%20Fractal/light.svg" />
         </td>
-        <td>
+        <td width="50%">
             <img src="wallpapers/Nord%20Arctic%20Ocean%20Fractal/dark.svg" />
         </td>
     </tr>
@@ -61,7 +61,7 @@
         <td width="50%">
             <img src="wallpapers/Nord%20Blobs%20Frost/light.svg" />
         </td>
-        <td>
+        <td width="50%">
             <img src="wallpapers/Nord%20Blobs%20Frost/dark.svg" />
         </td>
     </tr>
@@ -74,7 +74,7 @@
         <td width="50%">
             <img src="wallpapers/Nord%20Mojave/light.svg" />
         </td>
-        <td>
+        <td width="50%">
             <img src="wallpapers/Nord%20Mojave/dark.svg" />
         </td>
     </tr>
@@ -87,7 +87,7 @@
         <td width="50%">
             <img src="wallpapers/Nord%20Mojave%20Alternative/light.svg" />
         </td>
-        <td>
+        <td width="50%">
             <img src="wallpapers/Nord%20Mojave%20Alternative/dark.svg" />
         </td>
     </tr>
@@ -100,7 +100,7 @@
         <td width="50%">
             <img src="wallpapers/Nord%20Obsession/light.svg" />
         </td>
-        <td>
+        <td width="50%">
             <img src="wallpapers/Nord%20Obsession/dark.svg" />
         </td>
     </tr>
@@ -113,7 +113,7 @@
         <td width="50%">
             <img src="wallpapers/Nord%20Subway/light.svg" />
         </td>
-        <td>
+        <td width="50%">
             <img src="wallpapers/Nord%20Subway/dark.svg" />
         </td>
     </tr>
