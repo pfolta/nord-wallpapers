@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="5120"
+   height="2880"
+   viewBox="0 0 5120 2880"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <rect
+     id="rect1"
+     width="5120"
+     height="2880"
+     x="0"
+     y="0"
+     style="fill:#eceff4;fill-opacity:1" />
+  <g
+     id="g1"
+     transform="translate(1279.6729)">
+    <polygon
+       points="440.11,135.69 438.9,136.84 446.34,144.4 438.84,152.02 439.99,153.17 447.44,145.67 455.12,153 456.33,151.96 448.71,144.45 456.21,136.95 455.06,135.8 447.55,143.25 "
+       id="polygon19"
+       style="display:inline;fill:#5e81ac;fill-opacity:1;stroke:#5e81ac;stroke-opacity:1"
+       transform="matrix(15.24679,0,0,15.24679,-4408.1628,-762.15)" />
+    <path
+       d="m 1673.2764,1302.4924 c -75.9603,0 -137.5074,61.5474 -137.5074,137.5078 0,75.9604 61.5471,137.5075 137.5074,137.5075 75.9608,0 137.5079,-61.5471 137.5079,-137.5075 0,-75.9603 -61.5471,-137.5078 -137.5079,-137.5078 m 0,253.5906 c -64.0141,0 -115.9528,-51.9387 -115.9528,-115.9532 0,-64.0141 51.9387,-115.9529 115.9528,-115.9529 64.0146,0 115.9533,51.9388 115.9533,115.9529 0,64.0145 -51.8088,115.9532 -115.9533,115.9532"
+       id="path20"
+       style="display:inline;fill:#bf616a;fill-opacity:1;stroke:#bf616a;stroke-width:12.9847;stroke-opacity:1" />
+    <path
+       d="M 794.26977,1576.283 H 1066.8362 V 1303.7171 H 794.26977 Z M 1041.061,1550.1994 H 819.89037 V 1329.1833 H 1041.061 Z"
+       id="path22"
+       style="display:inline;fill:#b48ead;fill-opacity:1;stroke:#b48ead;stroke-width:15.4341;stroke-opacity:1" />
+    <path
+       d="m 165.56077,1310.3639 -153.098999,266.3783 306.916999,-1.725 z m 0,46.5764 112.848,195.7947 -224.833199,1.2939 z"
+       id="path21"
+       style="display:inline;fill:#a3be8c;fill-opacity:1;stroke:#a3be8c;stroke-width:14.3755;stroke-opacity:1" />
+  </g>
+</svg>

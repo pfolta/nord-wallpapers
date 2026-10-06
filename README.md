@@ -67,6 +67,32 @@
     </tr>
 </table>
 
+### [Nord Gaming Icons Aurora](wallpapers/Nord%20Gaming%20Icons%20Aurora/)
+
+<table>
+    <tr>
+        <td width="50%">
+            <img src="wallpapers/Nord%20Gaming%20Icons%20Aurora/light.svg" />
+        </td>
+        <td width="50%">
+            <img src="wallpapers/Nord%20Gaming%20Icons%20Aurora/dark.svg" />
+        </td>
+    </tr>
+</table>
+
+### [Nord Gaming Icons Frost](wallpapers/Nord%20Gaming%20Icons%20Frost/)
+
+<table>
+    <tr>
+        <td width="50%">
+            <img src="wallpapers/Nord%20Gaming%20Icons%20Frost/light.svg" />
+        </td>
+        <td width="50%">
+            <img src="wallpapers/Nord%20Gaming%20Icons%20Frost/dark.svg" />
+        </td>
+    </tr>
+</table>
+
 ### [Nord Mojave](wallpapers/Nord%20Mojave/)
 
 <table>
